@@ -56,6 +56,7 @@ if (isset($_POST['confirm'])) {
     $z = $_POST['z'];
     $variant = 9;
     
+    
     if (empty($lastname)){ $error .= "Не введено прізвище<br>";}
     if (empty($firstname)){ $error .= "Не введено ім'я<br>";}
     if (empty($group)){ $error .= "Не введено групу<br>";}
